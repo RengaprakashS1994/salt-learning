@@ -10,6 +10,7 @@ index_html:
     - mode: 644
     - source: salt://apache/templates/index.html
 
+
 apache_services:
   service.running:
     - name: httpd
